@@ -4,7 +4,9 @@
 
 ## [Unreleased]
 
-尚无额外变更。
+### Fixed
+
+- CI 的 pip 缓存显式使用 requirements-dev.txt，修复 setup-python 找不到默认依赖文件而在安装和测试前退出的问题。
 
 ## [0.1.0] - 2026-10-30
 

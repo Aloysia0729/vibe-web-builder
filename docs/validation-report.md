@@ -88,3 +88,9 @@ GitHub URL 安装、Codex UI 自动发现、GitHub Actions 远端运行、插件
 ## 环境配置
 
 已通过配置工具保存 install_script 草稿：进入本仓库、创建 `.venv`、按 requirements-dev 安装并运行结构校验。该流程不需要常驻服务，因此没有添加 start_skill。保存不等于发布；用户需要在环境设置审核保存，再发布环境以供后续任务复用。
+
+## GitHub CI 首次运行与修复
+
+用户提供的真实 GitHub Actions 截图显示：checkout 通过，setup-python@v5 因 pip 缓存默认只查找 requirements.txt/pyproject.toml、未找到本仓库的 requirements-dev.txt 而失败；后续安装、结构检查和测试均被跳过，不能记为通过。此前本地 YAML 检查未覆盖这一缓存行为。
+
+修复为显式配置 cache-dependency-path: requirements-dev.txt，使缓存输入与安装命令使用相同文件。本地复核原默认模式匹配为空、修复后路径存在，并重新运行结构校验和 36 项工具测试通过。远端修复结果需独立核验；GitHub API 读取仍返回 Forbidden，不能据本地通过推断远端通过。
