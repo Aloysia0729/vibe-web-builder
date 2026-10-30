@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-10-30T15:21:03.028388+00:00",
+  "method": "HTTP GET after tracked PTY exit",
+  "timeout_seconds": 3,
+  "status": 200,
+  "returns_test_site": true
+}

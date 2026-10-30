@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "vibe-web-builder Codex skill-only manifest profile",
+  "description": "Local strict subset of the official openai/plugins manifest examples; not an official universal plugin schema.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "version",
+    "description",
+    "author",
+    "repository",
+    "license",
+    "skills"
+  ],
+  "properties": {
+    "name": {
+      "const": "vibe-web-builder"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(-[0-9A-Za-z.-]+)?$"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "author": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "repository": {
+      "const": "https://github.com/Aloysia0729/vibe-web-builder"
+    },
+    "license": {
+      "const": "LicenseRef-Vibe-Web-Builder-No-Charge-1.0"
+    },
+    "skills": {
+      "const": "./skills/"
+    }
+  }
+}

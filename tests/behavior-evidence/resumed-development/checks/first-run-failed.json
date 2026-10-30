@@ -1,0 +1,70 @@
+{
+  "started_at": "2026-10-30T15:15:06.838480+00:00",
+  "base": "http://127.0.0.1:8765",
+  "checks": [
+    {
+      "name": "HTTP /",
+      "result": "passed",
+      "detail": {
+        "status": 200,
+        "final_path": "/",
+        "heading": "摄影作品集"
+      }
+    },
+    {
+      "name": "HTTP /works",
+      "result": "passed",
+      "detail": {
+        "status": 200,
+        "final_path": "/works/",
+        "heading": "作品"
+      }
+    },
+    {
+      "name": "HTTP /contact",
+      "result": "passed",
+      "detail": {
+        "status": 200,
+        "final_path": "/contact/",
+        "heading": "联系"
+      }
+    },
+    {
+      "name": "local assets",
+      "result": "passed",
+      "detail": "4 numbered SVGs and stylesheet served successfully"
+    },
+    {
+      "name": "HTTP 404",
+      "result": "passed",
+      "detail": "404 status, explanation and global/home navigation"
+    },
+    {
+      "name": "real browser launch",
+      "result": "passed",
+      "detail": {
+        "engine": "Chromium",
+        "version": "154.0.8037.57"
+      }
+    },
+    {
+      "name": "390px layouts",
+      "result": "passed",
+      "detail": "3 pages, no horizontal overflow, 44px navigation, current-page marker; photo grid and aspect ratios checked"
+    },
+    {
+      "name": "1280px layouts",
+      "result": "passed",
+      "detail": "3 pages, no horizontal overflow, 44px navigation, current-page marker; photo grid and aspect ratios checked"
+    },
+    {
+      "name": "navigation clicks",
+      "result": "passed",
+      "detail": "9 source/target combinations and brand link returned expected page with current marker"
+    }
+  ],
+  "result": "failed",
+  "failed_stage": "keyboard focus and works link",
+  "error": "AssertionError: ",
+  "completed_at": "2026-10-30T15:15:24.274174+00:00"
+}

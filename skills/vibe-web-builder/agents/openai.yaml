@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vibe Coding 网页搭建向导"
+  short_description: "把模糊的建站想法变成已确认的页面方案、草图与可分阶段开发的任务"
+  default_prompt: "使用 $vibe-web-builder 帮我规划网站，确认需求和草图后再决定是否开发。"

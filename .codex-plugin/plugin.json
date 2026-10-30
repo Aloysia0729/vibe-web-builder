@@ -1,0 +1,11 @@
+{
+  "name": "vibe-web-builder",
+  "version": "0.1.0",
+  "description": "面向 Vibe Coding 新手的网页规划、草图确认与分阶段开发向导。",
+  "author": {
+    "name": "vibe-web-builder contributors"
+  },
+  "repository": "https://github.com/Aloysia0729/vibe-web-builder",
+  "license": "LicenseRef-Vibe-Web-Builder-No-Charge-1.0",
+  "skills": "./skills/"
+}

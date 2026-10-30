@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-10-30T15:19:46.501195+00:00",
+  "start_command": "python3 serve.py --port 8765",
+  "working_directory": "/tmp/vwb-behavior-resumed",
+  "session_id": 80454,
+  "stop_action": "Ctrl+C sent to the original PTY session",
+  "session_exit_code": 1,
+  "post_stop_connect_ex": 0,
+  "listener_owner": "unconfirmed in available process namespace",
+  "port_cleanup": "unconfirmed",
+  "unknown_processes_terminated": false
+}
