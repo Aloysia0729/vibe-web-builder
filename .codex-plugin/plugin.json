@@ -1,6 +1,6 @@
 {
   "name": "vibe-web-builder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "面向 Vibe Coding 新手的网页规划、草图确认与分阶段开发向导。",
   "author": {
     "name": "vibe-web-builder contributors"

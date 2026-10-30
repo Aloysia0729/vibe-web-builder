@@ -29,7 +29,7 @@ git push -u origin feat/vibe-web-builder-skill
 
 在已有仓库的 GitHub 页面从该分支创建指向 main 的 PR，检查 Validate skill 工作流并完成审阅后合并。若已有同名本地分支，先检查其用途再选择新名称，不覆盖旧分支。推送前仍需在实际宿主验证 README 安装方式。
 
-主分支 CI 和真实宿主安装验证完成后，获发布授权再创建 `v0.1.0` 标签及同名 GitHub Release。可在 GitHub UI 发布，无需额外脚本或自动发布 workflow。创建 Release 前应核对当前远端状态。
+选择与 manifest、README、CHANGELOG 一致且包含所需修复的版本标签；不移动已经公开的旧标签。当前修复版为 `v0.1.1`，发布说明见 [v0.1.1](releases/v0.1.1.md)。主分支 CI 通过后，已获授权的测试版可标记为 GitHub Pre-release，并明确未验证范围；正式稳定版还应完成真实宿主安装验证。可在 GitHub UI 发布，无需额外脚本或自动发布 workflow。创建 Release 前应核对当前远端状态。
 
 ## Release Notes 模板
 
