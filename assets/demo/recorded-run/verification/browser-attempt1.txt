@@ -1,0 +1,1 @@
+First verification attempt failed in the verification script: malformed JavaScript quote escaping caused Page.evaluate SyntaxError. No product failure found at that point. Replaced selector construction with document.links filtering and reran the same assertions.

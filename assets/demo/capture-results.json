@@ -1,0 +1,17 @@
+{
+  "capture": "actual browser screenshot + explicitly labeled transcript replay",
+  "base_is_ephemeral": true,
+  "layouts": [
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "overflow": false
+    }
+  ],
+  "browser": "154.0.8037.57",
+  "heading": "Brand clarity.\nDigital presence.",
+  "temporary_server_closed": true
+}

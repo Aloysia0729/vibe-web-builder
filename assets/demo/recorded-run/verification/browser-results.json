@@ -1,0 +1,90 @@
+{
+  "time": "2026-10-30T17:13:33.658314+00:00",
+  "url": "http://127.0.0.1:4187",
+  "browser": "system Chromium via Python Playwright",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 900,
+      "http_status": 200,
+      "horizontal_overflow": false,
+      "nav": [
+        {
+          "target": "home",
+          "hash": "#home",
+          "section_top": 24
+        },
+        {
+          "target": "services",
+          "hash": "#services",
+          "section_top": 24.1
+        },
+        {
+          "target": "work",
+          "hash": "#work",
+          "section_top": 24.5
+        },
+        {
+          "target": "about",
+          "hash": "#about",
+          "section_top": 24.2
+        },
+        {
+          "target": "contact",
+          "hash": "#contact",
+          "section_top": 376.8
+        }
+      ],
+      "hero_work_link": "passed",
+      "back_to_top": "passed",
+      "keyboard_skip_link": "passed",
+      "image_load": "passed",
+      "console_page_errors": [],
+      "screenshot": "site-1280.png"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "http_status": 200,
+      "horizontal_overflow": false,
+      "nav": [
+        {
+          "target": "home",
+          "hash": "#home",
+          "section_top": 24
+        },
+        {
+          "target": "services",
+          "hash": "#services",
+          "section_top": 23.8
+        },
+        {
+          "target": "work",
+          "hash": "#work",
+          "section_top": 23.9
+        },
+        {
+          "target": "about",
+          "hash": "#about",
+          "section_top": 24.2
+        },
+        {
+          "target": "contact",
+          "hash": "#contact",
+          "section_top": 416.1
+        }
+      ],
+      "hero_work_link": "passed",
+      "back_to_top": "passed",
+      "keyboard_skip_link": "passed",
+      "image_load": "passed",
+      "console_page_errors": [],
+      "screenshot": "site-390.png"
+    }
+  ],
+  "limitations": [
+    "mailto delivery not exercised; .example is a demonstration address",
+    "basic keyboard and semantic checks are not a complete accessibility audit"
+  ],
+  "result": "passed"
+}

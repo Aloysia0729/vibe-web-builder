@@ -1,0 +1,1 @@
+Visual inspection of full-page browser screenshots at 1280px and 390px found missing diagonal-arrow font glyphs. Replaced decorative Unicode arrows/stars with original inline SVG icons, retained labels/aria-hidden, and reran browser checks and screenshots. No layout overflow observed.
