@@ -1,0 +1,34 @@
+{
+  "renderer": "markdown-it-py 3.0.0 + local GitHub-inspired CSS, not GitHub server rendering",
+  "checks": [
+    {
+      "file": "README.md",
+      "width": 390,
+      "local_images_loaded": true,
+      "document_overflow": false,
+      "one_h1": true
+    },
+    {
+      "file": "README.md",
+      "width": 1280,
+      "local_images_loaded": true,
+      "document_overflow": false,
+      "one_h1": true
+    },
+    {
+      "file": "README.zh-CN.md",
+      "width": 390,
+      "local_images_loaded": true,
+      "document_overflow": false,
+      "one_h1": true
+    },
+    {
+      "file": "README.zh-CN.md",
+      "width": 1280,
+      "local_images_loaded": true,
+      "document_overflow": false,
+      "one_h1": true
+    }
+  ],
+  "temporary_server_closed": true
+}
